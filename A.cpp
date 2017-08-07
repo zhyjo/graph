@@ -1,6 +1,8 @@
-//
+//已知N个点的联通情况，无向，求还需多少条路可以实现畅通
+
+// 1 并查集的模版题
+
 #include<iostream>
-#include<bits/stdc++.h>
 #include<cstdio>
 #include<cstring>
 using namespace std;

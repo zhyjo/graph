@@ -46,7 +46,6 @@ int main() {
 		int ans = 0;
 		//所有边的端点都保证属于1-n的顶点集，只要计算1-n个顶点的最大匹配
 		//每次dfs都是在原来找到的匹配基础上进行的优化
-		//本质类似于匈牙利算法
 		for(int i = 1; i < n; i++) {
 			memset(used, false, sizeof(used));
 			if(dfs(i)) ans++;

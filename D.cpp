@@ -1,3 +1,7 @@
+//最小生成树
+//
+//1 判断是否为联通图可以通过顶点和边得出
+//2 prim 保证为联通图
 #include<iostream>
 #include<cstdio>
 #include<cstring>

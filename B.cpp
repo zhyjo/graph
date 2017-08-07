@@ -1,3 +1,4 @@
+//最小生成树的模版题
 #include<iostream>
 #include<cstdio>
 #include<cstring>
